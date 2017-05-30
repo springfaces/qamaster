@@ -1,0 +1,168 @@
+@CHARSET "ISO-8859-1";
+@import url('');
+
+
+body{font-family: 'Roboto', sans-serif; background-color:#F0F3F4; line-height:1.7em; text-aligh:left;}
+body a { color: #37474f; font-weight: lighter; font-size: 12pt;}
+.container{border: 1px solid Silver; margin: 0 auto; overflow: hidden; height:auto; width: 90%;}
+#strip { background-color:#cfd2d4; border: 1px light Silver; display: block; height: 25px; margin: 0px 0px; overflow:hidden; width: 100%;}
+
+.loginbutton {display: block;width: 125px;height: 40px;background-color:#d9dcde; padding: 10px;text-align: center;border-radius: 5px;color: white;font-weight: bold; }
+.error{color:red;}
+
+
+.formtable {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	width: 70%;
+	padding: 10px;
+	font-size: 10pt;
+	font-weight: lighter;
+	border: 0px solid blue;
+}
+.formatable caption {font-size: 14pt;  font-weight: bold; text-align: center;}
+
+input[type=text] {
+	width: 250px;
+	
+}
+
+.header {
+    background-color: #228272;
+    color: white;
+    display: table;
+    font-size: 17pt;
+    height: 100px;
+    text-align:center;
+    width: 100%;
+}
+.header a { color: white; font-size: 10pt; text-align: right;}
+
+textarea {
+	width: 250px;
+	height: 300px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+table.offers {
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	width: 70%;
+	padding: 10px;
+	font-size: 10pt;
+	font-weight: lighter;
+	border: 0px solid blue;
+}
+table.offers caption {font-size: 14pt;  font-weight: bold; text-align: center;}
+
+/*User table*/
+table.usertbl {  border-collapse: collapse; margin: 0 auto;  font-family: 'Roboto', sans-serif;  width: 80%; }
+table.usertbl th { background:  #228272; color: white; font-weight: bold; font-size:10pt; margin: 2px 2px 2px 2px;}
+table.usertbl td { font-size:9pt; padding: 6px; border: 1px solid #ccc; text-align: center; }
+table.usertbl thead .subheader {font: bold 10pt Verdana; color: black; vertical-align:middle; cursor:default; background-color: #1ABC9C; text-align: center; }
+table.usertbl tfoot td {font: 10pt Verdana; color: black; vertical-align:middle; cursor:default; background-color:#DBDEE0; text-align: center;border: 1px solid silver; }
+table.usertbl tfoot .totals { text-align: right; }
+table.usertbl thead a:link {font-family: Verdana; color: white; text-decoration:none;  } 
+table.usertbl thead a:visited	{font-family: Verdana; color: white; text-decoration:none;  }
+table.usertbl thead a:hover {color: #BF2F38}
+table.usertbl thead a:active	{color: #BF2F38}
+table.usertbl caption {display: table-caption; text-align:left; color: #228272; font-size: 15pt;}
+
+p.error {
+	font-size: medium;
+}
+div.content {
+	background-color:#F0F3F4;
+	position: relative;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+}
+
+div.footer {
+	font-size: 10pt;
+	background-color: #34495E;
+	color: #ECF0F1;
+	height: 120px;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Style the tab */
+div.tab {
+	color: #ECF0F1;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #25AB9;
+    width: 100%;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+/*View for Bigger tablets and small Laptops */
+@media screen and (max-width:1080px) {
+	.container{border: none; width: 100%}
+}
+
+/*View for iPad and Android devices */
+@media screen and (max-width:979px) {
+	
+}
+
+/*View for All phones */
+@media screen and (max-width:500px) {
+	
+}
+
+
+.title {
+    display: table-cell; 
+    color: White; 
+    font-size: 1.5rem; 
+    font-weight:lighter;
+    padding-left: 200px; 
+    text-align: left;
+    vertical-align:middle;
+}

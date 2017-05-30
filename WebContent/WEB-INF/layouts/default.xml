@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+		<definition name="index.base" template="/WEB-INF/templates/default.jsp">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="header" value="/WEB-INF/tiles/header.jsp"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/content.jsp"></put-attribute>
+			<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp"></put-attribute>
+		</definition>
+		
+		<definition name="login" extends="index.base">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/index.jsp"></put-attribute>
+		</definition>
+		
+		<definition name="loggedout" extends="index.base">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/loggedout.jsp"></put-attribute>
+		</definition>
+		
+		<definition name="index" extends="index.base">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/home.jsp"></put-attribute>
+		</definition>
+	
+		<definition name="offers" extends="index.base">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/offers.jsp"></put-attribute>
+		</definition>
+		
+		<definition name="newaccount" extends="index.base">
+			<put-attribute name="title" value="QA-Master"></put-attribute>
+			<put-attribute name="content" value="/WEB-INF/tiles/newaccount.jsp"></put-attribute>
+		</definition>
+		
+</tiles-definitions>
